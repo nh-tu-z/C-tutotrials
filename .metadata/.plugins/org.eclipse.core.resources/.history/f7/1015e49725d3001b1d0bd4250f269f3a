@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+/* Tìm giá trị lớn nhất trong ba số của kiểu số bất kì */
+template <class type> type findMax(type *ar, size_t size){
+	type max = ar[0];
+	for(size_t i = 1; i < size; i++){
+		if(max < ar[i]) max = ar[i];
+	}
+	return max;
+}
+template <class val> val maxMatrix(val m[][5], size_t col){
+
+}
+int main() {
+	int xint[] = {1, 5, 10, 12, 4, 3};
+	float xfloat[] = {1.2f, 1.5f, 3.14f, 0.5f, -1.5f};
+	cout << "Max (Int) is: " << findMax<int>(xint,sizeof(xint)/sizeof(int)) << endl;
+	cout << "Max  (Float) is: " << findMax<float>(xfloat,sizeof(xfloat)/sizeof(float)) << endl;
+	return 0;
+}

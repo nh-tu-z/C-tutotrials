@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+class Color{
+private:
+	string TenMau, MaMau;
+public:
+	Color();
+	Color(string, string);
+	~Color();
+	istream &operator>>(istream, Color);
+};
+
+int main(){
+
+	return 0;
+}

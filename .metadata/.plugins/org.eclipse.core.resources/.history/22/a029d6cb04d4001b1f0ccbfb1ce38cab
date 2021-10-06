@@ -1,0 +1,73 @@
+#include <iostream>
+
+using namespace std;
+
+class Color{
+private:
+	string TenMau, MaMau;
+public:
+	Color();
+	Color(string, string);
+	~Color();
+	friend istream &operator>>(istream &is, Color &obj){
+		cout << "=== Color Operator Overloading ===" << endl;
+		cout << "Add a color name: "; fflush(stdin); getline(is, obj.TenMau);
+		cout << "Add a color code: "; fflush(stdin); getline(is, obj.MaMau);
+		return is;
+	}
+	friend ostream &operator<<(ostream &os, Color &obj){
+		cout << "=== Show Color Info ===" << endl;
+		cout << "Color Name: " << obj.TenMau << endl;
+		cout << "Color Code: " << obj.MaMau << endl;
+		return os;
+	}
+	string getTenMau();
+};
+Color::Color(){
+	TenMau = MaMau = "";
+}
+Color::Color(string TenMau, string MaMau){
+	this->TenMau = TenMau;
+	this->MaMau = MaMau;
+}
+Color::~Color(){
+	TenMau = MaMau = "";
+}
+string Color::getTenMau(){
+	return this->TenMau;
+}
+/*==============================*/
+class Point{
+private:
+	int x, y;
+public:
+	Point();
+	Point(int, int);
+	~Point();
+	friend istream &operator >> (istream &is, Point &obj){
+		cout << "=== Add a Point ===" << endl;
+		cout << "Add X coordinate: "; is >> obj.x;
+		cout << "Add Y coordinate: "; is >> obj.y;
+		return is;
+	}
+	friend ostream &operator << (ostream &os, Point &obj){
+		cout << "=== Show Point ===" << endl;
+		cout << "Point is: (" << obj.x << ", " << obj.y << ")" << endl;
+		return os;
+	}
+	bool isCheoChinh();
+};
+Point::Point(){
+	x = y = 0;
+}
+Point::Point(int x, int y){
+	this->x = x;
+	this->y = y;
+}
+Point::~Point(){
+	x = y = 0;
+}
+int main(){
+
+	return 0;
+}

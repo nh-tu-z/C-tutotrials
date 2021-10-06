@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+class Parent
+{
+public:
+	Parent(){
+		cout << "Constructor of parent class" << endl;
+	}
+	~Parent(){
+			cout << "Deconstructor of parent class" << endl;
+		}
+};
+
+class Child : public Parent
+{
+public:
+	Child(){
+		cout << "Constructor of child class" << endl;
+	}
+	~Child(){
+		cout << "Deconstructor of child class" << endl;
+	}
+};
+void swap (int &a, int &b){
+	int temp = a;
+	a = b;
+	b = temp;
+}
+
+int main()
+{
+	Child a;
+
+	return 0;
+}

@@ -1,0 +1,19 @@
+13:47:21 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:47:22 Build Failed. 2 errors, 0 warnings. (took 876ms)
+

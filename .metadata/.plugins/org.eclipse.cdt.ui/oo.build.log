@@ -1,0 +1,15 @@
+20:29:10 **** Incremental Build of configuration Debug for project oo ****
+make all 
+Building file: ../stack.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack.d" -MT"stack.o" -o "stack.o" "../stack.cpp"
+Finished building: ../stack.cpp
+ 
+Building target: oo
+Invoking: GCC C++ Linker
+g++  -o "oo"  ./stack.o   
+Finished building target: oo
+ 
+
+20:29:11 Build Finished. 0 errors, 0 warnings. (took 1s.324ms)
+

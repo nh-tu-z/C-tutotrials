@@ -1,0 +1,1128 @@
+11:47:28 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:51:17: error: invalid conversion from ‘int (*)[5]’ to ‘int’ [-fpermissive]
+   51 |  int temp = (&c +1);
+      |             ~~~~^~~
+      |                 |
+      |                 int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:51:18 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:51:17: error: invalid conversion from ‘int (*)[5]’ to ‘int’ [-fpermissive]
+   51 |  int temp = (&c +1);
+      |             ~~~~^~~
+      |                 |
+      |                 int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:51:19 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:19 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:20 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:51:21 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:51:22 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:22 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:23 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:24 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:24 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:25 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:30 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+11:55:59 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:52:15: error: cannot convert ‘int (*)[5]’ to ‘int*’ in initialization
+   52 |  int *temp2 = &c;
+      |               ^~
+      |               |
+      |               int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:00 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:01 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:01 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:02 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:03 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:04 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:05 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:05 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:06 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:06 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:13 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:52:15: error: cannot convert ‘int (*)[5]’ to ‘int*’ in initialization
+   52 |  int *temp2 = &c;
+      |               ^~
+      |               |
+      |               int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:34 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:52:16: error: cannot convert ‘int (*)[5]’ to ‘int**’ in initialization
+   52 |  int **temp2 = &c;
+      |                ^~
+      |                |
+      |                int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:35 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:36 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:36 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:37 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:56:38 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:39 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:40 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:40 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:41 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:41 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+11:56:44 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:52:16: error: cannot convert ‘int (*)[5]’ to ‘int**’ in initialization
+   52 |  int **temp2 = &c;
+      |                ^~
+      |                |
+      |                int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:09:17 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+12:09:18 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:18 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:19 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:09:20 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:09:21 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:21 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:22 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:23 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:23 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:24 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+12:09:27 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:03 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:04 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:05 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:05 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:11:06 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:11:07 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:08 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:09 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:09 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:10 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:10 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+12:11:12 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = sizeof(c)/sizeof(c[0]);
+      |      ^~~~~~~~~~
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+12:14:06 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:07 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:08 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:08 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:14:09 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:14:10 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:11 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:11 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:12 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:12 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:13 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:25 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:50:26: error: invalid operands of types ‘int (*)[5]’ and ‘int [5]’ to binary ‘operator-’
+   50 |  int array_size = (&c+1) - c;
+      |                   ~~~~~~ ^ ~
+      |                      |     |
+      |                      |     int [5]
+      |                      int (*)[5]
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:14:25 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:26 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:27 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:14:28 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:14:28 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:29 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:30 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:30 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:31 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:14:32 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:43 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+12:15:44 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:44 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:45 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:15:46 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:15:47 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:47 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:48 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:49 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:49 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:15:50 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:39 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:39 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:40 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:41 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:18:42 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:18:43 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:43 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:44 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:44 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:45 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:46 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+12:18:47 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:51:23: error: invalid conversion from ‘int (*)[5]’ to ‘int’ [-fpermissive]
+   51 |  int array2_size = &c + 1;
+      |                    ~~~^~~
+      |                       |
+      |                       int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = *(&c+1) - c;
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:19:00 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:51:23: error: invalid conversion from ‘int (*)[5]’ to ‘int’ [-fpermissive]
+   51 |  int array2_size = &c + 1;
+      |                    ~~~^~~
+      |                       |
+      |                       int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = *(&c+1) - c;
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:19:01 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:01 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:02 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:19:03 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:19:04 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:05 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:05 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:06 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:06 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:07 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+12:19:10 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:51:24: error: cannot convert ‘int (*)[5]’ to ‘int*’ in initialization
+   51 |  int *array2_size = &c + 1;
+      |                     ~~~^~~
+      |                        |
+      |                        int (*)[5]
+../test.cpp:50:6: warning: unused variable ‘array_size’ [-Wunused-variable]
+   50 |  int array_size = *(&c+1) - c;
+      |      ^~~~~~~~~~
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:20:14 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:26:34 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:26:35 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:36 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:37 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:26:38 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:26:39 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:39 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:40 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:40 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:41 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:42 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:43 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+make: Nothing to be done for 'all'.
+13:28:09 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:43:20 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:43:21 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:21 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:22 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:43:23 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:43:24 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:24 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:25 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:26 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:26 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:27 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:28 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:19 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:47:20 **** Incremental Build of configuration Debug for project c3107_linkedin_test ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:21 **** Incremental Build of configuration Debug for project hello-world ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:21 **** Incremental Build of configuration Debug for project oop1707_arraylist ****
+make all 
+Building file: ../arraylist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arraylist.d" -MT"arraylist.o" -o "arraylist.o" "../arraylist.cpp"
+../arraylist.cpp:167:5: error: no declaration matches ‘int LinkedList::Search(int, Node*&, Node*&)’
+  167 | int LinkedList::Search(int value, Node* &pPre, Node* &pLoc){
+      |     ^~~~~~~~~~
+../arraylist.cpp:126:6: note: candidate is: ‘int LinkedList::Search(int, Node*, Node*)’
+  126 |  int Search(int, Node*, Node*);
+      |      ^~~~~~
+../arraylist.cpp:118:7: note: ‘class LinkedList’ defined here
+  118 | class LinkedList{
+      |       ^~~~~~~~~~
+make: *** [subdir.mk:20: arraylist.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:47:22 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:47:23 **** Incremental Build of configuration Debug for project oop2106_class-1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:24 **** Incremental Build of configuration Debug for project oop2106_class-2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:24 **** Incremental Build of configuration Debug for project oop2106_inheritance-1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:25 **** Incremental Build of configuration Debug for project oop2106_template-function ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:25 **** Incremental Build of configuration Debug for project oop2206_inheritance-2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:26 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+13:47:38 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+make: Nothing to be done for 'all'.
+13:50:26 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:55:57 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:56:17 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+../test.cpp: In function ‘int main()’:
+../test.cpp:72:40: error: too many initializers for ‘int [5]’
+   72 |  int c[5] = {4, 3, 2, 10, 1, 6,7 ,5 , 0};
+      |                                        ^
+make: *** [subdir.mk:20: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:56:30 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:56:48 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘void insertionSort(int*, int)’:
+../test.cpp:32:6: warning: unused variable ‘i’ [-Wunused-variable]
+   32 |  int i, j, last;
+      |      ^
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+13:57:20 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 
+15:09:27 **** Incremental Build of configuration Debug for project 2909_practice ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 2909_practice
+Invoking: GCC C++ Linker
+g++  -o "2909_practice"  ./test.o   
+Finished building target: 2909_practice
+ 

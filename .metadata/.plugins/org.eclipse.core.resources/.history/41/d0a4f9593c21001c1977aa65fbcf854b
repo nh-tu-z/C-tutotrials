@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout  << "Enter array number" << endl;
+	int n;
+	cin >> n;
+	unsigned int a[n];
+	for(int i = 0; i < n; ++i)
+	{
+		cout << "Enter element" + i << endl;
+		fflush(stdin);
+		cin >> a[i];
+		cin.ignore();
+	}
+	for(int i = 0; i < n; ++i)
+	{
+		cout << a[i];
+	}
+	return 0;
+}

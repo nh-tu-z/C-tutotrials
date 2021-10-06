@@ -1,0 +1,13 @@
+13:47:22 **** Incremental Build of configuration Debug for project oop1907_stack_queue ****
+make all 
+Building file: ../stack-queue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"stack-queue.d" -MT"stack-queue.o" -o "stack-queue.o" "../stack-queue.cpp"
+../stack-queue.cpp:51:1: error: expected initializer before ‘int’
+   51 | int main(){
+      | ^~~
+make: *** [subdir.mk:20: stack-queue.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:47:23 Build Failed. 2 errors, 0 warnings. (took 830ms)
+

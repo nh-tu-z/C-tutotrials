@@ -1,0 +1,18 @@
+22:54:00 **** Build of configuration Debug for project oop1707_arrlist ****
+make all 
+Building file: ../arrlist.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"arrlist.d" -MT"arrlist.o" -o "arrlist.o" "../arrlist.cpp"
+Finished building: ../arrlist.cpp
+ 
+Building target: oop1707_arrlist
+Invoking: GCC C++ Linker
+g++  -o "oop1707_arrlist"  ./arrlist.o   
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: oop1707_arrlist] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+22:54:00 Build Failed. 3 errors, 0 warnings. (took 671ms)
+

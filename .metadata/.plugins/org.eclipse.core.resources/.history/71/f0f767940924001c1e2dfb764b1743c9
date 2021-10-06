@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+class Parent
+{
+public:
+	Parent(){
+		cout << "Constructor of parent class" << endl;
+	}
+	~Parent(){
+			cout << "Deconstructor of parent class" << endl;
+		}
+};
+
+class Child : public Parent
+{
+public:
+	Child(){
+		cout << "Constructor of child class" << endl;
+	}
+	~Child(){
+		cout << "Deconstructor of child class" << endl;
+	}
+};
+void swap (int &a, int &b){
+	int temp = a;
+	a = b;
+	b = temp;
+}
+void insertionSort(int a[], int array_size)
+{
+	int i, j, last;
+	for(int i = 1; i < array_size; i++)
+	{
+		last = a[i];
+		j = i;
+		while((j>0)&&(a[j-1]>last))
+		{
+			a[i] = a[j-1];
+			j--;
+		}
+		a[j] = last;
+	}
+}
+int main()
+{
+	Child a;
+	int c[5] = {4, 3, 2, 10, 1};
+	insertionSort(c, 5);
+	int array_size = *(&c+1) - c;
+	int *array2_size = &c + 1;
+	cout << "Size: " << array2_size << endl;
+	return 0;
+}

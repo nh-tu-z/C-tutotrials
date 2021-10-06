@@ -1,0 +1,6 @@
+13:47:26 **** Incremental Build of configuration Debug for project oop2406_pointer ****
+make all 
+make: Nothing to be done for 'all'.
+
+13:47:27 Build Finished. 0 errors, 0 warnings. (took 567ms)
+

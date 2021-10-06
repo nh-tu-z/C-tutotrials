@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:oop2106_class-1,org.eclipse.launchbar.core.descriptorType.default\:oop2106_inheritance-1,org.eclipse.launchbar.core.descriptorType.default\:oop2206_inheritance-2,org.eclipse.launchbar.core.descriptorType.default\:oop2406_pointer,org.eclipse.launchbar.core.descriptorType.default\:oop2106_template-function,org.eclipse.launchbar.core.descriptorType.default\:hello-world,org.eclipse.launchbar.core.descriptorType.default\:oop2106_class-2,org.eclipse.launchbar.core.descriptorType.default\:oop1707_arraylist,org.eclipse.launchbar.core.descriptorType.default\:oop1907_stack_queue Debug,org.eclipse.launchbar.core.descriptorType.default\:c3107_linkedin_test,org.eclipse.launchbar.core.descriptorType.default\:2909_practice
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:c3107_linkedin_test/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:hello-world/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:hello-world/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:oop1707_arraylist/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:oop2106_class-1/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:oop2106_class-1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:oop2106_inheritance-1/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:oop2106_template-function/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:oop2406_pointer/activeLaunchMode=run

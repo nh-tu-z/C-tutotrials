@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+class Color{
+protected:
+	string TenMau, MaMau;
+public:
+	Color();
+	Color(string, string);
+	~Color();
+	friend istream &operator>>(istream, Color);
+	friend ostream &operator<<(ostream, Color);
+	string getTenMau();
+};
+Color::Color(){
+	TenMau = MaMau = "";
+}
+Color::Color(string TenMau, string MaMau){
+	this->TenMau = TenMau;
+	this->MaMau = MaMau;
+}
+Color::~Color(){
+	TenMau = MaMau = "";
+}
+istream &operator>>(istream &is, Color &obj){
+	cout << "=== Color Operator Overloading ===" << endl;
+	cout << "Add a color name: "; fflush(stdin); getline(is, obj.TenMau);
+	cout << "Add a color code: "; fflush(stdin); getline(is, obj.MaMau);
+	return is;
+}
+ostream &operator<<(ostream &os, Color &obj){
+	cout << "=== Show Color Info ===" << endl;
+	cout << "Color Name: " << obj.TenMau << endl;
+	cout << "Color Code: " << obj.MaMau << endl;
+	return os;
+}
+string Color::getTenMau(){
+	return this->TenMau;
+}
+
+int main(){
+
+	return 0;
+}
